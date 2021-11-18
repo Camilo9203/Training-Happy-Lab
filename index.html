@@ -16,7 +16,7 @@
       crossorigin="anonymous"
     />
     <!-- Favicon -->
-    <link rel="shortcut icon" href="" />
+    <link rel="shortcut icon" href="assets/img/favicon.png" />
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
@@ -34,7 +34,7 @@
       <div class="container">
         <!-- Logo -->
         <a href="index.html">
-          <img src="assets/logo.svg" alt="Logo" />
+          <img src="assets/img/logo.svg" class="logo" alt="Logo" />
         </a>
         <!-- Menu -->
         <nav>
@@ -48,13 +48,230 @@
     </header>
     <!-- Contenido -->
     <main>
-      <section id="incio"></section>
-      <section id="nosotros"></section>
-      <section id="servicios"></section>
-      <section id="galeria"></section>
-      <section id="contacto"></section>
+      <!-- Seccion Inicio -->
+      <section id="incio">
+        <img src="assets/img/bannerprincipal.jpg" alt="Banner" />
+        <div class="bloque-inicio">
+          <h1>Bienvenidos a Coca Cola</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
+            fugiat quo similique nihil, placeat iste. Aut reiciendis quo eius
+            eum, debitis perspiciatis sit incidunt nihil illo, voluptatibus
+            commodi eveniet impedit!
+          </p>
+          <a href="#nosotros" class="boton"> Ver más</a>
+        </div>
+      </section>
+      <!-- Seccion Nosotros -->
+      <section id="nosotros">
+        <div class="container">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+            modi sit commodi corrupti vitae incidunt natus itaque debitis vel?
+            Facere ullam ea dolor eligendi consectetur ratione aliquid, magnam
+            id inventore.
+          </p>
+        </div>
+      </section>
+      <!-- Seccion Servicios -->
+      <section id="servicios">
+        <!-- 1 Fila 3 Columnas -->
+        <div class="row">
+          <!-- Bloque 1 -->
+          <div class="columna columna-33">
+            <div class="bloque-servicio">
+              <div class="bloque-img-servicio">
+                <img src="assets/img/servicio1.jpg" alt="Servicio 1" />
+              </div>
+              <div class="bloque-contenido-servicio">
+                <h3>Servicio 1</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                  ex nulla quas itaque quia.
+                </p>
+                <a href="#">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <!-- Bloque 2 -->
+          <div class="columna columna-33">
+            <div class="bloque-servicio">
+              <div class="bloque-img-servicio">
+                <img src="assets/img/servicio2.jpg" alt="Servicio 1" />
+              </div>
+              <div class="bloque-contenido-servicio">
+                <h3>Servicio 2</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                  ex nulla quas itaque quia.
+                </p>
+                <a href="#">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <!-- Bloque 3 -->
+          <div class="columna columna-33">
+            <div class="bloque-servicio">
+              <div class="bloque-img-servicio">
+                <img src="assets/img/servicio3.jpg" alt="Servicio 1" />
+              </div>
+              <div class="bloque-contenido-servicio">
+                <h3>Servicio 3</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                  ex nulla quas itaque quia.
+                </p>
+                <a href="#">Ver más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Seccion Galeria -->
+      <section id="galeria">
+        <div class="container fluid">
+          <div class="row">
+            <div class="columna columna-33">
+              <div class="cuadrado-perfecto">
+                <img src="assets/img/servicio1.jpg" alt="" />
+                <h4>Imagen 1</h4>
+              </div>
+            </div>
+            <div class="columna columna-33">
+              <div class="cuadrado-perfecto">
+                <img src="assets/img/servicio2.jpg" alt="" />
+                <h4>Imagen 2</h4>
+              </div>
+            </div>
+            <div class="columna columna-33">
+              <div class="cuadrado-perfecto">
+                <img src="assets/img/servicio3.jpg" alt="" />
+                <h4>Imagen 3</h4>
+              </div>
+            </div>
+            <div class="columna columna-33">
+              <div class="cuadrado-perfecto">
+                <img src="assets/img/servicio1.jpg" alt="" />
+                <h4>Imagen 4</h4>
+              </div>
+            </div>
+            <div class="columna columna-33">
+              <div class="cuadrado-perfecto">
+                <img src="assets/img/servicio2.jpg" alt="" />
+                <h4>Imagen 5</h4>
+              </div>
+            </div>
+            <div class="columna columna-33">
+              <div class="cuadrado-perfecto">
+                <img src="assets/img/servicio3.jpg" alt="" />
+                <h4>Imagen 6</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Seccion Contacto -->
+      <section id="contacto">
+        <!-- Formulario y mapa Google -->
+        <div class="container">
+          <div class="row">
+            <div class="columna columna-50">
+              <form action="" method="post">
+                <div class="form-block">
+                  <input type="text" name="nombre" class="form-control" />
+                </div>
+                <div class="form-block">
+                  <input type="email" name="email" class="form-control" />
+                </div>
+                <div class="form-block">
+                  <textarea
+                    name="mensaje"
+                    id="mensaje"
+                    cols="30"
+                    rows="5"
+                  ></textarea>
+                </div>
+                <div class="form-block">
+                  <input type="submit" value="Enviar" />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <iframe
+          width="600"
+          height="500"
+          id="gmap_canvas"
+          src="https://maps.google.com/maps?q=bogota&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+        ></iframe>
+      </section>
     </main>
     <!-- Pie de pagina -->
-    <footer></footer>
+    <footer>
+      <div class="container">
+        <!-- 1 fila 4 columnas -->
+        <div class="row">
+          <div class="columna columna25">
+            <img
+              src="assets/img/logo-blanco.png"
+              alt="Logo"
+              class="logo-footer"
+            />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="columna columna25">
+            <h3>Temas Relacionados</h3>
+            <ul>
+              <li><a href="#">Tema 1</a></li>
+              <li><a href="#">Tema 2</a></li>
+              <li><a href="#">Tema 3</a></li>
+              <li><a href="#">Tema 4</a></li>
+            </ul>
+          </div>
+          <div class="columna columna25">
+            <h3>Datos Contacto</h3>
+            <ul>
+              <li>camilorios92@hotmail.com</li>
+              <li>+57 312-500-61-69</li>
+              <li>
+                Carrera 98 # 2 - 44 <br />
+                Bogotá - Colombia
+              </li>
+            </ul>
+          </div>
+          <div class="columna columna25">
+            <h3>Redes Sociales</h3>
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-twitter" aria-hidden="true">Twitter</i></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-youtube" aria-hidden="true">YouTube</i></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-instagram" aria-hidden="true"></i
+                  >Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="barra-footer">2021 &copy; Todos los derechos reservados</div>
+    </footer>
   </body>
 </html>
