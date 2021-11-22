@@ -1,0 +1,81 @@
+/* All */
+* {
+  box-sizing: border-box;
+}
+/* Body */
+body {
+  font-family: "Roboto";
+}
+/* Links */
+a {
+  display: inline-block;
+}
+/* Header */
+header {
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  background-color: white;
+}
+/* Container Header */
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Logo */
+header .container .logo {
+  width: 100px;
+}
+/* Links Menu */
+header .container a {
+  color: red;
+  text-decoration: none;
+  margin: 0 15px;
+}
+/* Botones */
+.boton {
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 20px;
+}
+.boton.boton-rojo {
+  color: white;
+  background-color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* Container */
+.container {
+  width: 1140px;
+  margin: 0 auto 0 auto;
+  padding: 0 15px;
+}
+/* Seccion Inicio */
+#inicio {
+  position: relative;
+}
+/* Imagen de inicio */
+#inicio img {
+  width: 100%;
+  display: block;
+}
+/* Texto Header */
+#inicio .bloque-inicio {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 500px;
+  text-align: center;
+  margin-left: -200px;
+}
+#inicio .bloque-inicio h1 {
+  color: white;
+  font-size: 40px;
+}
+#inicio .bloque-inicio p {
+  color: white;
+}
